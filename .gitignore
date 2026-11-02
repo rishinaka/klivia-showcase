@@ -1,0 +1,12 @@
+# Bloco novo (02/11/2026): protege arquivos de ambiente, chaves e saídas de build
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+dist/
+build/
+.next/
